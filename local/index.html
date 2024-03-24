@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<title>Datagarden Supplemental Material`</title>
+</head>
+
+<body>
+    <br>
+    <h1 id="paper-title">DataGarden: Sketch-based Visualizaton Template Authoring</h1>
+
+    <p id="abstract">
+        Visualization is a popular tool for exploring personal data, but many visualization authoring systems do not
+        support expressing data in flexible, personal, and organic layouts. Sketching is an accessible tool for
+        experimenting with visualization designs, but formalizing sketched elements into structured data representations
+        is difficult, as modifying hand-drawn glyphs to encode data when available is labour-intensive and error prone.
+        We propose an approach where authors structure their own expressive templates, capturing implicit style as well
+        as explicit data mappings, through sketching a representative visualization for an envisioned or partial
+        dataset. Our approach seeks to support freeform exploration and partial specification, balanced against
+        interactive machine support for specifying the generative procedural rules. We implement this approach in
+        DataGarden, a system designed to support hierarchical data visualizations, and evaluate it with 12 participants
+        in a reproduction study and four experts in a freeform creative task. Participants readily picked up the core
+        idea of template authoring, and the variety of workflows we observed highlight how this process serves design
+        and data ideation as well as visual constraint iteration. We discuss challenges in implementing the design
+        considerations underpinning DataGarden, and illustrate its potential in a gallery of visualizations generated
+        from authored templates.
+    </p>
+    <br>
+
+    <p style="text-align:justify; margin-left:20%; width:60%;font-size:24px;">
+        Submitted to <i>Proceedings of IEEE VIS 2024</i>.
+    </p>
+    <br>
+
+    <div id="datagarden-links">
+        <a href="app.html"> DataGarden Application</a> |
+        <a href="URL-TBD">DataGarden Code</a>
+    </div>
+
+    <br>
+
+    <h1>Video Figure</h1>
+    <br>
+    <video class="video-figure" controls>
+        <source src="sup_mats/video/videoFigureV1.mp4">
+    </video>
+    <br>
+
+    <br><br><br>
+
+    <hr>
+    <div id="mats-navbar">
+        <a href="#gallery">Gallery</a> |
+        <a href="#tutorial">Tutorial Video</a> |
+        <a href="#study1">Reproduction Study</a> |
+        <a href="#study2">Free-form Study</a>
+    </div>
+    <hr>
+
+    <br><br><br>
+
+    <div id="evaluation">
+        <h1>Evaluation</h1>
+        <p>
+            We evaluated Datagarden using three established methods:
+            a reproduction study with 12 participants to evaluate the system's concepts;
+            a free-form evaluation with 4 visualization experts to evaluate the workflow appropriability and creativity
+            support of the system;
+            and a gallery of visualizations produced with Datagarden to evaluate the strengths and limitations of the
+            data structures and approach.
+        </p>
+
+        <h1><a name="gallery"></a>Gallery</h1>
+
+        <div class="gallery">
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/mood_garden">
+                    <img src="sup_mats/gallery/img/mood_garden.png">
+                    <p>
+                        Mood Garden
+                        <br><br>
+                        This visualization demonstrates a multi dimensional mood data set.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/blog_of_tree">
+                    <img src="sup_mats/gallery/img/blog_of_tree.png">
+                    <p>
+                        Blog of Tree
+                        <br><br>
+                        This visualization follows the common stem-branch-leaf pattern of visualization, and
+                        demonstrates significant variation in branch shapes.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/petri">
+                    <img src="sup_mats/gallery/img/petri.png">
+                    <p>
+                        Petri Dish
+                        <br><br>
+                        A simple two category viz.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/Owls">
+                    <img src="sup_mats/gallery/img/Owls.png">
+                    <p>
+                        Owls
+                        <br><br>
+                        A demonstration of complex glyphs with manually specified spines. Demonstrates the need for
+                        overspecification, as position has to be specified to ensure the heads remain on the necks, so
+                        to speak.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/beads">
+                    <img src="sup_mats/gallery/img/beads.png">
+                    <p>
+                        Beads
+                        <br><br>
+                        Experimentation with unusual branch shapes.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/video_figure_viz">
+                    <img src="sup_mats/gallery/img/video_figure_viz.png">
+                    <p>
+                        Video Figure
+                        <br><br>
+                        The communication visualization produced in the study figure.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/study_viz">
+                    <img src="sup_mats/gallery/img/study_viz.png">
+                    <p>
+                        Dear Data Week 27 adapted to Activity Data
+                        <br><br>
+                        An adaptation of Giorgia Lupi's Dear Data week 27 Media. We simplified the visualization and
+                        applied it to activity data to use as the visualization to reproduce in the study.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/Stefanie_Posavec_week1_clocks">
+                    <img src="sup_mats/gallery/img/Stefanie_Posavec_week1_clocks.png">
+                    <p>
+                        Dear Data Week 1 Clocks Reproduction
+                        <br><br>
+                        A reproduction of Stefanie Posavec's dear data week 1, visualizing checking clocks. The original
+                        visualization split the branches into 7 sub branches by day of the week, which was not
+                        replicated for simlicity.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/Giorgia_Lupi_week4_thankyous">
+                    <img src="sup_mats/gallery/img/Giorgia_Lupi_week4_thankyous.png">
+                    <p>
+                        Dear Data Week 3 Lupi Thank Yous Reproduction
+                        <br><br>
+                        A reproduction of Giorgia Lupi's dear data week 3, visualizing thank yous. This reproduction
+                        demonstrates the difficulty of reproducing complex layouts.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/Stephanie_Posavec_week4_thankyous">
+                    <img src="sup_mats/gallery/img/Stephanie_Posavec_week4_thankyous.png">
+                    <p>
+                        Dear Data Week 3 Posavec Thank Yous Reproduction
+                        <br><br>
+                        A visualization based off of Stephanie Posavec's dear data week 3, visualizing thank yous.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/gallery/json/ants">
+                    <img src="sup_mats/gallery/img/ants.png">
+                    <p>
+                        Working Ants
+                        <br><br>
+                        This visualization was an experimentation in scaling. We generated
+                        a visualization for a full year of work data, with each day represented as a trail (with the
+                        length mapped to the length of the work day) and each work activity
+                        represented as an ant (positioned based on when the activity finished) of different colors
+                        (black are productive activites, grey semiproductive, white unproductive). DataGarden generated
+                        and downloaded the visualization image, but the sheer quantity of glyphs rendered the system
+                        inoperable.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+        </div>
+
+        <h2>Reproduction of Expert Participant Designs</h2>
+
+        Here we reproduce the design by the expert participants. As these design push the boundries of what the system
+        is capable of, there was insufficient time during the study to complete them, so we reproduced them after the
+        study, and present the reproductions here.
+
+        <div class="gallery">
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/study2/json/christmas_reproduction_E1">
+                    <img src="sup_mats/study2/img/christmas_reproduction_E1.png">
+                    <p>
+                        E1 Reproduction - Music Rating
+                        <br><br>
+                        This visualization displays music rankings, with each song being a bauble, and the position of
+                        the bauble displaying the ranking. The color of the bauble indicates it's music genre, and the
+                        snowflakes indicate the people who voted for the song.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/study2/json/project_bubbles_E2">
+                    <img src="sup_mats/study2/img/project_bubbles_E2.png">
+                    <p>
+                        E2 Reproduction version 1 - Project Tracking
+                        <br><br>
+                        This visualization displays activity data, with each bubble being a project, colored by project
+                        category (teaching, research, service, etc). Each smaller bubble is one activity in the project,
+                        scaled by the hours it took. The line inside the smaller bubble indicates the completion
+                        percentage for the activity.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/study2/json/bookshelf_template_complete_E3">
+                    <img src="sup_mats/study2/img/bookshelf_generated_E3.png">
+                    <p>
+                        E3 Visualization 1 Reproduction - Books Read
+                        <br><br>
+                        This visualization displays reading activity, with each shelf being a month, the angle being the
+                        completion of the book, and the color linked to how the author rated the book.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/study2/json/scatterplot_E3">
+                    <img src="sup_mats/study2/img/scatterplot_E3.png">
+                    <p>
+                        E3 Visualization 2 Reproduction - Scatterplot
+                        <br><br>
+                        This visualization is an experiement with producing a scatterplot within DataGarden.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+
+            <div class="gallery-img">
+                <a target="blank" href="app.html?viz=sup_mats/study2/json/travel_E4">
+                    <img src="sup_mats/study2/img/travel_E4.png">
+                    <p>
+                        E4 Reproduction - Travel
+                        <br><br>
+                        This shows places visited around the world, with each smaller circle being a country, each dot
+                        on the circle being a trip, with color representing the reason, and the glyphs along the trip
+                        indicating activities taken part in.
+                        <br><br>
+                        &#9998; Click to open the template in Datagarden
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <h1>Study Apparatus</h1>
+
+    <div class="study">
+        <h2><a name="apparatus"></a>Tutorial</h2>
+        <p> In both studies participants were provided with the following tutorial and demo visualization to work with
+        </p>
+        <video class="video-figure" controls>
+            <source src="sup_mats/video/videoFigureV1.mp4">
+        </video>
+    </div>
+
+    <div class="study">
+        <h2><a name="study1"></a>Study 1: Reproduction Study</h2>
+
+        <p>
+            Study description here.
+        </p>
+
+        <a href="supmats/SONDAGES INRIA - TimeALine Evaluation demographics survey.pdf">Download Survey</a> The survey
+        provided to participants.</br>
+        <a href="supmats/Supplementary Materials_ Study 1 Protocol.pdf">Download Study 1 Protocol</a> Study protocol
+        that was used for conducting the study.</br>
+        <a href="supmats/Supplementary Materials_ Study 1 Tasks Deck.pdf">Download Study 1 Task Deck</a> Task deck that
+        participants were asked to work through.
+
+
+    </div>
+    <h3>Resulting Reproductions</h3>
+    <div id="study1gallery">
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P1">
+                <img src="sup_mats/study1/img/P1.png">
+                <p>P1</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P2">
+                <img src="sup_mats/study1/img/P2.png">
+                <p>P2</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P3">
+                <img src="sup_mats/study1/img/P3.png">
+                <p>P3</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P4">
+                <img src="sup_mats/study1/img/P4.png">
+                <p>P4</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P5">
+                <img src="sup_mats/study1/img/P5.png">
+                <p>P5</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P6">
+                <img src="sup_mats/study1/img/P6.png">
+                <p>P6</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P7">
+                <img src="sup_mats/study1/img/P7.png">
+                <p>P7</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P8">
+                <img src="sup_mats/study1/img/P8.png">
+                <p>P8</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P9">
+                <img src="sup_mats/study1/img/P9.png">
+                <p>P9</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P10">
+                <img src="sup_mats/study1/img/P10.png">
+                <p>P10</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P11">
+                <img src="sup_mats/study1/img/P11.png">
+                <p>P11</p>
+            </a>
+        </div>
+        <div class="study1img">
+            <a target="blank" href="app.html?viz=sup_mats/study1/json/P12">
+                <img src="sup_mats/study1/img/P12.png">
+                <p>P12</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="study">
+        <h2><a name="study2"></a>Study 2: Free-form Study with Experts</h2>
+
+        <p>
+            Description goes here
+        </p>
+
+        <a href="supmats/SONDAGES INRIA - TimeALine Evaluation demographics survey.pdf">Download Survey</a> The survey
+        provided to participants.</br>
+        <a href="supmats/Supplementary Materials_ Study 2 Protocol.pdf">Download Study 2 Protocol</a> Study protocol
+        that was used for conducting the study.</br>
+        <a href="supmats/Supplementary Materials_ Study 2 Tutorial Deck.pdf">Download Study 2 Tutorial Deck</a>
+        Tutorial deck that participants were provided to assist with learning the system.<br>
+
+        <br>
+        <br>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'DefaultFont';
+    src: url('../lib/fonts/IndieFlower-Regular.ttf');
+}
+
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+    touch-action: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+button {
+    font-family: "DefaultFont", Times, serif;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+table {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#dashboard-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+#tab-view-container,
+#tabs-container,
+#fdl-view-container {
+    position: relative
+}
+
+#dashboard-container>div {
+    position: relative;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.canvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.canvas-container canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#table-view-container {
+    position: absolute;
+    overflow: scroll;
+    bottom: 0;
+    right: 0;
+}
+
+#interface-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#color-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#input-box {
+    position: absolute;
+    top: -100;
+    left: -100;
+    background: white;
+    border: 1 solid black;
+    cursor: default;
+    caret-color: black;
+    font-family: "DefaultFont", Times, serif;
+    font-size: 16pt;
+    overflow: hidden;
+    resize: none;
+}
+
+#dropdown-container {
+    position: absolute;
+    top: -100;
+    left: -100;
+    background: white;
+    border: 1 solid black;
+    cursor: default;
+    caret-color: black;
+    font-family: "DefaultFont", Times, serif;
+    font-size: 16pt;
+    overflow: hidden;
+    resize: none;
+}

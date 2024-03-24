@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg version="1.1" id="svg1678" width="128" height="128" viewBox="0 0 128 128" xml:space="preserve" sodipodi:docname="angle_-90_abs.svg" inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg">
+    <sodipodi:namedview id="namedview1420" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="1.5742188" inkscape:cx="115.29529" inkscape:cy="103.22581" inkscape:window-width="958" inkscape:window-height="1000" inkscape:window-x="-7" inkscape:window-y="0" inkscape:window-maximized="0" inkscape:current-layer="svg1678" />
+    <defs id="defs1682" />
+    <rect style="fill:#ffffff;stroke-width:77.7235;stroke-linejoin:bevel;stroke-opacity:0" id="rect1519" width="127.68238" height="127.68237" x="-9.0124708e-09" y="-9.0124672e-09" />
+
+    <g transform="matrix(0.19110857,0.00212851,-0.00333497,0.1219724,-1421.8577,-264.50367)" id="g188" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10">
+        <path d="m 7565.27,2361.36 477.74,-8.34" style="fill:none;stroke:#0096ff;stroke-width:44.71px;stroke-linejoin:round;stroke-miterlimit:1.5;stroke-dasharray:134.14, 89.42, 0, 0" id="path186" />
+    </g>
+    <g transform="matrix(0.08140712,-0.09085519,-0.09085519,-0.08140712,389.16972,1350.9389)" id="g202" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10">
+        <g transform="matrix(0.669232,0,0,0.712663,3119.49,5084.36)" id="g192">
+            <path d="m 4422.44,5743.93 c -263.96,0 -370.83,-31.83 -412.36,-280.61 -4.58,-27.39 -25.28,-112.19 -1.86,-135.61 34.69,-34.7 95.37,-45.22 143.66,-45.22 34.97,0 86.11,-9.64 115.96,10.25 38.06,25.38 53.07,61.17 83.44,93.7 91.15,97.61 118.39,189.89 118.39,316.04" style="fill:#ddc080;stroke:#de0e5a;stroke-width:21.1px;stroke-linejoin:round;stroke-miterlimit:1.5" id="path190" />
+        </g>
+        <g transform="matrix(0.863308,-0.129374,-0.128911,0.878007,2962.63,4745.6)" id="g200">
+            <g transform="matrix(0.66086,-0.750874,-0.998146,-0.907117,2545.37,13738.9)" id="g198">
+                <path d="m 7348.1,3121.63 -79.37,83.09 -83.09,-79.37" style="fill:none;stroke:#d53b3b;stroke-width:54.17px" id="path194" />
+                <path d="m 7260.71,2854.44 c 0,0 5.77,252.27 8.02,350.28" style="fill:none;stroke:#d53b3b;stroke-width:54.17px;stroke-linejoin:round;stroke-miterlimit:1.5" id="path196" />
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(0.09148894,-0.01307011,-0.01480738,-0.10364985,-347.1676,1073.995)" id="g206" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10">
+        <path d="m 5906.74,9066.54 c 56.37,-56.38 184.61,0.23 184.61,65.73" style="fill:none;stroke:#676767;stroke-width:72.06px;stroke-linejoin:round;stroke-miterlimit:1.5;stroke-opacity:0.64" id="path204" />
+    </g>
+    <g transform="matrix(0.12199095,0,0,0.12199095,-328.22851,-451.45834)" id="g212" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10">
+        <text x="3279.49" y="4311.6499" style="font-weight:700;font-size:200px;font-family:Arial-BoldMT, Arial, sans-serif" id="text208">-90</text>
+        <text x="3568.5601" y="4245.0498" style="font-weight:700;font-size:116.6px;font-family:Arial-BoldMT, Arial, sans-serif" id="text210">o</text>
+    </g>
+</svg>

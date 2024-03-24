@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="lib/jspreadsheet_v4_ce/jspreadsheet.css" rel="stylesheet">
+    <link href="lib/jspreadsheet_v4_ce/jsuites.css" rel="stylesheet">
+    <link href="lib/vanilla-picker/vanilla-picker.csp.css" rel="stylesheet">
+
+    <script src="lib/vanilla-picker/vanilla-picker.csp.min.js"></script>
+    <script src="lib/jspreadsheet_v4_ce/index.js" charset="utf-8"></script>
+    <script src="lib/jspreadsheet_v4_ce/jsuites.js" charset="utf-8"></script>
+    <script src="lib/d3.min.js" charset="utf-8"></script>
+
+    <script type="module" src="js/main.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+    <div id="dashboard-container">
+        <div id="canvas-view-container">
+            <div class="canvas-container"></div>
+        </div>
+        <div id="tab-view-container">
+            <div id="tabs-container">
+                <div class="canvas-container"></div>
+            </div>
+            <div id="fdl-view-container">
+                <div class="canvas-container"></div>
+            </div>
+        </div>
+    </div>
+    <div id="interface-container">
+        <svg id="interface-svg"></svg>
+    </div>
+
+    <!-- table view container needs to go overtop of the interface container,
+    otherwise the scroll bars don't work. -->
+    <div id="table-view-container"></div>
+
+    <div id="color-container"></div>
+    <textarea id="input-box" type="text"></textarea>
+    <div id="dropdown-container"></div>
+    <div id="tooltips"></div>
+</body>
+
+</html>

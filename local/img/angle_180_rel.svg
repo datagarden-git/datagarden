@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg version="1.1" id="svg1678" width="128" height="128" viewBox="0 0 128 128" xml:space="preserve" sodipodi:docname="angle_180_rel.svg" inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg">
+    <sodipodi:namedview id="namedview1420" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="1.5742188" inkscape:cx="61.300248" inkscape:cy="197.24069" inkscape:window-width="958" inkscape:window-height="1000" inkscape:window-x="-7" inkscape:window-y="0" inkscape:window-maximized="0" inkscape:current-layer="svg1678" />
+    <defs id="defs1682" />
+    <rect style="fill:#ffffff;stroke-width:77.7235;stroke-linejoin:bevel;stroke-opacity:0" id="rect1519" width="127.68238" height="127.68237" x="-9.0124708e-09" y="-9.0124672e-09" />
+    <rect style="fill:#ffffff;stroke-width:75.5906;stroke-linejoin:bevel;stroke-opacity:0" id="rect4906" width="109.62605" height="110.55247" x="10.962605" y="8.6465626" />
+
+    <g transform="matrix(0.15749674,0,0,0.15749674,-672.33186,-1604.4064)" id="g34" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10">
+        <g transform="translate(-1251.89,10252.7)" id="g32">
+            <path d="m 6158.22,295.78 123.55,6.878 -6.87,123.553" style="fill:none;stroke:#676767;stroke-width:58.33px" id="path28" />
+            <path d="m 5767.1,530.161 c 0,-193.65 311.92,-105.384 441.92,-148.711 38.15,-12.714 54.39,-49.894 72.75,-78.792" style="fill:none;stroke:#676767;stroke-width:58.33px;stroke-linejoin:round;stroke-miterlimit:1.5" id="path30" />
+        </g>
+    </g>
+    <g transform="matrix(0.10349628,-0.11871707,0.11871707,0.10349628,-1648.4022,-151.44935)" id="g48" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10">
+        <g transform="matrix(0.669232,0,0,0.712663,3119.49,5084.36)" id="g38">
+            <path d="m 4422.44,5743.93 c -263.96,0 -370.83,-31.83 -412.36,-280.61 -4.58,-27.39 -25.28,-112.19 -1.86,-135.61 34.69,-34.7 95.37,-45.22 143.66,-45.22 34.97,0 86.11,-9.64 115.96,10.25 38.06,25.38 53.07,61.17 83.44,93.7 91.15,97.61 118.39,189.89 118.39,316.04" style="fill:#ddc080;stroke:#de0e5a;stroke-width:21.1px;stroke-linejoin:round;stroke-miterlimit:1.5" id="path36" />
+        </g>
+        <g transform="matrix(0.863308,-0.129374,-0.128911,0.878007,2962.63,4745.6)" id="g46">
+            <g transform="matrix(0.909383,0.992504,-0.778495,0.633727,-636.627,-484.081)" id="g44">
+                <path d="m 5718.52,499.905 -88.98,-72.706 72.7,-88.978" style="fill:none;stroke:#d53b3b;stroke-width:54.17px" id="path40" />
+                <path d="m 5978.15,392.114 c 0,0 -251.07,25.268 -348.61,35.085" style="fill:none;stroke:#d53b3b;stroke-width:54.17px;stroke-linejoin:round;stroke-miterlimit:1.5" id="path42" />
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(0.14845407,-0.07754998,0.10318525,0.19752769,-1760.4423,-1265.442)" id="g52" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10">
+        <path d="m 5906.74,9066.54 c 56.37,-56.38 184.61,0.23 184.61,65.73" style="fill:none;stroke:#676767;stroke-width:46.61px;stroke-linejoin:round;stroke-miterlimit:1.5;stroke-opacity:0.64" id="path50" />
+    </g>
+    <text x="48.50079" y="48.986431" style="font-weight:700;font-size:31.4994px;font-family:Arial-BoldMT, Arial, sans-serif;clip-rule:evenodd;fill-rule:evenodd;stroke-width:0.157496;stroke-linecap:round;stroke-miterlimit:10" id="text146">180</text>
+    <text x="101.70669" y="32.427738" style="font-weight:700;font-size:18.3642px;font-family:Arial-BoldMT, Arial, sans-serif;clip-rule:evenodd;fill-rule:evenodd;stroke-width:0.157496;stroke-linecap:round;stroke-miterlimit:10" id="text148">o</text>
+</svg>
