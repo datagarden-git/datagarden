@@ -6,6 +6,8 @@ This code repository contains a website which displays the gallery and supplimen
 
 For the live online version, please see [https://datagarden-git.github.io/datagarden/local/index.html](https://datagarden-git.github.io/datagarden/local/index.html)
 
+PLEASE NOTE: The application has been developed in the Chrome webbrowser, and may not work on other browsers. 
+
 To view the gallery and run the application locally, simply serve the files in this folder.
 This can be done via running "npm install" then "node app.js" from the main folder or "python -m http.server". 
 Then, open <yourlocalhost>/local/index.html.

@@ -17,6 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 let mIdMap = new utility.IdMap();
 
 utility.log("************* Starting the server *************")
+utility.log("http://localhost:3333")
 
 const port = 3333;
 
