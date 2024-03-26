@@ -74,6 +74,11 @@ body {
     object-position: center;
 }
 
+.gallery-img a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .gallery-img p {
     position: absolute;
     top: 0;
