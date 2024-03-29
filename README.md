@@ -13,7 +13,9 @@ If you have NodeJS, this can be done via navigating to the main folder and runni
 
 Or
 
-If you have python, pip install http and in the main folder run "python -m http.server", then open <yourlocalhost>/local/index.html.
+If you have python, pip install http and in the main folder run "python -m http.server", then open <yourlocalhost>/local/index.html. 
+
+Unless you have StrokeStrip installed (not covered here), the server will spit out errors, you can safely ignore these, they will not affect the running of the application. 
 
 The files for the gallery are found within the document structure as follows: 
 
