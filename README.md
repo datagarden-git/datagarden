@@ -1,8 +1,8 @@
 # DataGarden
 
-Welcome to DataGarden Code and supplimentary materials. 
+Welcome to DataGarden Code and supplementary materials. 
 
-This code contains a website which displays the gallery and supplimentary materials. 
+This code contains a website which displays the gallery and supplementary materials. 
 
 For the live online version, please see [https://datagarden-git.github.io/datagarden/local/index.html](https://datagarden-git.github.io/datagarden/local/index.html)
 
