@@ -9,8 +9,11 @@ For the live online version, please see [https://datagarden-git.github.io/dataga
 PLEASE NOTE: The application has been developed in the Chrome webbrowser, and may not work on other browsers. It does not work on IPad (because IPad's have limited web standard support). 
 
 To view the gallery and run the application locally, simply serve the files in this folder.
-This can be done via running "npm install express" then "node app.js" from the main folder or "python -m http.server". 
-Then, open <yourlocalhost>/local/index.html.
+If you have NodeJS, this can be done via navigating to the main folder and running "npm install express" then "node app.js" and open http://localhost:3333
+
+Or
+
+If you have python, pip install http and in the main folder run "python -m http.server", then open <yourlocalhost>/local/index.html.
 
 The files for the gallery are found within the document structure as follows: 
 
