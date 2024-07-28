@@ -5,7 +5,7 @@ let expect = chai.expect;
 import * as suite from "./test_utils/suite_enviroment.js"
 import * as utility from "./test_utils/utility.js";
 
-import { OverlayUtil } from '../local/js/utils/overlay_util.js';
+import { OverlayUtil } from '../js/utils/overlay_util.js';
 
 describe('OverlayUtil tests', function () {
     let integrationEnv;

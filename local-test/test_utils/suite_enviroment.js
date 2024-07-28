@@ -7,7 +7,7 @@ let assert = chai.assert;
 
 import { resetGlobals } from './setup_globals.js'
 
-import * as main from '../../local/js/main.js'
+import * as main from '../../js/main.js'
 
 export function getIntegrationEnviroment() {
     let documentLoad = document.load;

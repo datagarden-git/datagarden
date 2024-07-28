@@ -1,4 +1,4 @@
-import { ChannelType, DIMENSION_SETTINGS_HEIGHT, DimensionType, Size, Tab } from '../local/js/constants.js';
+import { ChannelType, DIMENSION_SETTINGS_HEIGHT, DimensionType, Size, Tab } from '../js/constants.js';
 
 import * as  chai from 'chai';
 let assert = chai.assert;
@@ -6,7 +6,7 @@ let expect = chai.expect;
 
 import * as suite from "./test_utils/suite_enviroment.js"
 import * as utility from "./test_utils/utility.js"
-import { DataUtil } from '../local/js/utils/data_util.js';
+import { DataUtil } from '../js/utils/data_util.js';
 
 describe('FDL View Controller Test', function () {
     let integrationEnv;

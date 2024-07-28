@@ -1,7 +1,7 @@
-import { DataModel } from '../local/js/data_model.js';
-import { Data } from '../local/js/data_structs.js';
-import { IdUtil } from '../local/js/utils/id_util.js';
-import { ChannelType, DEFAULT_CATEGORY_NAME, DimensionType } from '../local/js/constants.js';
+import { DataModel } from '../js/data_model.js';
+import { Data } from '../js/data_structs.js';
+import { IdUtil } from '../js/utils/id_util.js';
+import { ChannelType, DEFAULT_CATEGORY_NAME, DimensionType } from '../js/constants.js';
 
 import * as  chai from 'chai';
 let assert = chai.assert;

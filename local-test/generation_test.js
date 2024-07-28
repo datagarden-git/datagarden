@@ -5,8 +5,8 @@ let expect = chai.expect;
 import * as suite from "./test_utils/suite_enviroment.js"
 import * as utility from "./test_utils/utility.js"
 
-import { Tab } from '../local/js/constants.js';
-import { DataUtil } from '../local/js/utils/data_util.js';
+import { Tab } from '../js/constants.js';
+import { DataUtil } from '../js/utils/data_util.js';
 
 describe('Table View Controller Test', function () {
     let integrationEnv;

@@ -1,5 +1,5 @@
-import { Size } from '../../local/js/constants.js';
-import { VectorUtil } from '../../local/js/utils/vector_util.js';
+import { Size } from '../../js/constants.js';
+import { VectorUtil } from '../../js/utils/vector_util.js';
 import { createCanvas } from './mock_canvas.js';
 
 let mJspreadsheet;

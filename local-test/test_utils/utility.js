@@ -1,6 +1,6 @@
-import { Buttons, Tab } from '../../local/js/constants.js';
-import { DataModel } from '../../local/js/data_model.js';
-import { Data } from '../../local/js/data_structs.js';
+import { Buttons, Tab } from '../../js/constants.js';
+import { DataModel } from '../../js/data_model.js';
+import { Data } from '../../js/data_structs.js';
 
 import * as  chai from 'chai';
 let assert = chai.assert;

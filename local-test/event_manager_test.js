@@ -1,4 +1,4 @@
-import { EventManager } from '../local/js/event_manager.js';
+import { EventManager } from '../js/event_manager.js';
 
 import * as  chai from 'chai';
 let assert = chai.assert;

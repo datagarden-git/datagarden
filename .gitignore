@@ -106,4 +106,4 @@ dist
 package-lock.json
 local-test/test_utils/dump/*
 server/scaps/
-local/img/*.png
+img/*.png

@@ -11,7 +11,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 // Required to send and recieve JSON
-app.use(bodyParser.json())
+app.use(bodyParser.json({ limit: '50mb' }))
 app.use(bodyParser.urlencoded({ extended: false }));
 
 let mIdMap = new utility.IdMap();
@@ -22,11 +22,11 @@ utility.log("http://localhost:3333")
 const port = 3333;
 
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + '/local/index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
-// Everything in the local folder can be accessed via /filename
-app.use('/', express.static(__dirname + '/local'));
+// Everything in the repo folder can be accessed via /filename
+app.use('/', express.static(__dirname));
 
 /************************
  *  Fairy module requests  *

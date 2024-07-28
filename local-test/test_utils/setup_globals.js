@@ -10,13 +10,13 @@ import { mockServer } from "./mock_server.js"
 import { mockPicker } from "./mock_color_picker.js"
 import { createCanvas } from './mock_canvas.js';
 
-import { DataModel } from "../../local/js/data_model.js";
+import { DataModel } from "../../js/data_model.js";
 
 // this must import before main so that the document is set.
 
 import * as  chai from 'chai';
 import { registerFont } from "canvas";
-import { Buttons } from "../../local/js/constants.js";
+import { Buttons } from "../../js/constants.js";
 let assert = chai.assert;
 
 global.document = {
@@ -45,6 +45,7 @@ global.window = {
     innerWidth: 1000,
     innerHeight: 800,
     files: [],
+    location: {},
     showOpenFilePicker: function () { return [{ getFile: () => { return { text: () => fs.readFileSync(__dirname + '/' + this.files[this.files.length - 1], 'utf8') } } }] }
 }
 
@@ -95,7 +96,7 @@ global.model = function () {
 global.jspreadsheet = mockJspreadsheet;
 global.d3 = new mockD3(jspreadsheet);
 
-registerFont('./local/lib/fonts/IndieFlower-Regular.ttf', {
+registerFont('./lib/fonts/IndieFlower-Regular.ttf', {
     family: 'DefaultFont',
 });
 

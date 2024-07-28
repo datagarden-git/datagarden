@@ -1,4 +1,4 @@
-import { VectorUtil } from '../local/js/utils/vector_util.js';
+import { VectorUtil } from '../js/utils/vector_util.js';
 
 import * as  chai from 'chai';
 let assert = chai.assert;

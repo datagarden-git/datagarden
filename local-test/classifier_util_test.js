@@ -1,5 +1,5 @@
 import * as  chai from 'chai';
-import { ClassifierUtil } from '../local/js/utils/classifier_util.js';
+import { ClassifierUtil } from '../js/utils/classifier_util.js';
 let assert = chai.assert;
 let expect = chai.expect;
 

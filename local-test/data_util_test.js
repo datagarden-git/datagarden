@@ -1,5 +1,5 @@
-import { DataUtil } from '../local/js/utils/data_util.js';
-import { Data } from '../local/js/data_structs.js';
+import { DataUtil } from '../js/utils/data_util.js';
+import { Data } from '../js/data_structs.js';
 
 import * as  chai from 'chai';
 let assert = chai.assert;
@@ -7,7 +7,7 @@ let expect = chai.expect;
 
 import * as suite from "./test_utils/suite_enviroment.js"
 import * as utility from "./test_utils/utility.js"
-import { VectorUtil } from '../local/js/utils/vector_util.js';
+import { VectorUtil } from '../js/utils/vector_util.js';
 
 describe('Test Data Util', function () {
     let integrationEnv;
