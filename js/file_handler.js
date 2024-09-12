@@ -21,8 +21,15 @@ export let FileHandler = function () {
     }
 
     async function getJSONModel() {
-        let fileHandle = await window.showOpenFilePicker();
-        let file = await fileHandle[0].getFile();
+        let file = await new Promise((resolve, reject) => {
+            let input = document.createElement('input');
+            input.type = 'file';
+            input.click();
+            input.onchange = e => {
+                resolve(e.target.files[0]);
+            };
+            input.oncancel = e => { reject("User Canceled."); }
+        })
         let contents = await file.text();
         return JSON.parse(contents);
     }
