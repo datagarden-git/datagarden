@@ -50,6 +50,7 @@ export function FdlViewController(mColorMap) {
         .classed('interaction-canvas', true);
 
     let mDrawingUtil = new DrawingUtil(
+        mCanvas.node(),
         mCanvas.node().getContext("2d"),
         mInteractionCanvas.node().getContext("2d"),
         mInterfaceCanvas.node().getContext("2d"),

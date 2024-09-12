@@ -5,7 +5,7 @@ import { DrawingUtil } from "./drawing_util.js";
 export let ClassifierUtil = function () {
     let mCanvas = document.createElement('canvas');
     let mContext = mCanvas.getContext("2d");
-    let mDrawingUtil = new DrawingUtil(mContext, mContext, mContext);
+    let mDrawingUtil = new DrawingUtil(mCanvas, mContext, mContext, mContext);
 
     function elementToImg(element, size = 16) {
         mDrawingUtil.reset({ x: 0, y: 0, k: 1 });

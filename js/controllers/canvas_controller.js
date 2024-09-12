@@ -31,6 +31,7 @@ export function CanvasController(mColorMap) {
     let mDataTooltip = new ToolTip();
 
     let mDrawingUtil = new DrawingUtil(
+        mCanvas.node(),
         mCanvas.node().getContext("2d"),
         mInteractionCanvas.node().getContext("2d"),
         mInterfaceCanvas.node().getContext("2d"),

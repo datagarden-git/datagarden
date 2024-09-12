@@ -1,7 +1,7 @@
 import { DataUtil } from "./data_util.js";
 import { VectorUtil } from "./vector_util.js";
 
-export function DrawingUtil(context, interactionContext, interfaceContext) {
+export function DrawingUtil(canvas, context, interactionContext, interfaceContext) {
     let ctx = context;
     let intCtx = interactionContext;
     let intfCtx = interfaceContext;
@@ -13,10 +13,12 @@ export function DrawingUtil(context, interactionContext, interfaceContext) {
 
     function reset(zoomTransform) {
         ctx.reset();
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.translate(zoomTransform.x, zoomTransform.y)
         ctx.scale(zoomTransform.k, zoomTransform.k)
 
         intCtx.reset();
+        intCtx.clearRect(0, 0, canvas.width, canvas.height);
         intCtx.translate(zoomTransform.x, zoomTransform.y)
         intCtx.scale(zoomTransform.k, zoomTransform.k)
         intCtx.imageSmoothingEnabled = false;
@@ -27,6 +29,7 @@ export function DrawingUtil(context, interactionContext, interfaceContext) {
 
     function resetInterface(zoomTransform) {
         intfCtx.reset();
+        intfCtx.clearRect(0, 0, canvas.width, canvas.height);
         intfCtx.translate(zoomTransform.x, zoomTransform.y)
         intfCtx.scale(zoomTransform.k, zoomTransform.k)
     }

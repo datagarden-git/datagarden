@@ -449,7 +449,7 @@ export function DashboardController() {
             canvas.height = boundingbox.height + 50;
 
             let dummy = { reset: () => { }, translate: () => { }, scale: () => { } };
-            let drawingUtil = new DrawingUtil(canvas.getContext('2d'), dummy, dummy)
+            let drawingUtil = new DrawingUtil(canvas, canvas.getContext('2d'), dummy, dummy)
             drawingUtil.reset({ x: -boundingbox.x + 25, y: -boundingbox.y + 25, k: 1 });
             mModel.getElements().forEach(elem => {
                 elem.strokes.forEach(stroke => {
