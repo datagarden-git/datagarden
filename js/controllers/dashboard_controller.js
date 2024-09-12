@@ -440,6 +440,8 @@ export function DashboardController() {
                 (mSystemState.getToolState() == Buttons.SPINE_BRUSH_BUTTON || mSystemState.getToolState() == Buttons.ANGLE_BRUSH_BUTTON)) {
                 mSystemState.setDefaultToolState(Buttons.CURSOR_BUTTON);
             }
+        } else if (button == Buttons.UNDO) {
+            mUndoCallback();
         } else if (button == Buttons.DOWNLOAD) {
             FileHandler.downloadJSON(mModel.toObject());
         } else if (button == Buttons.DOWNLOAD_IMAGE) {

@@ -11,6 +11,7 @@ export const DIMENSION_SETTINGS_HEIGHT = 100;
 export const MENU_BUTTON_SIZE = 40;
 
 export const Buttons = {
+    UNDO: "Undo",
     CURSOR_BUTTON: "Cursor",
     BRUSH_BUTTON: "Brush",
     SELECTION_BUTTON: "Selection",

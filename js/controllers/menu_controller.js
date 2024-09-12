@@ -19,6 +19,7 @@ export function MenuController() {
     FiltersUtil.addShadowFilter(mSvg);
 
     const BUTTON_LIST = [
+        Buttons.UNDO,
         Buttons.CURSOR_BUTTON,
         Buttons.SELECTION_BUTTON,
         Buttons.COLOR_BUTTON,
@@ -39,6 +40,7 @@ export function MenuController() {
         [Buttons.VIEW_BUTTON, Buttons.ANGLE_BRUSH_BUTTON],
     ]
     const BUTTON_IMAGES = {}
+    BUTTON_IMAGES[Buttons.UNDO] = "img/undo.svg";
     BUTTON_IMAGES[Buttons.COLOR_BUTTON] = "img/color_selector.svg";
     BUTTON_IMAGES[Buttons.BRUSH_BUTTON] = "img/color_brush_button.svg";
     BUTTON_IMAGES[Buttons.PANNING_BUTTON] = "img/panning_button.svg";
