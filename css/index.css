@@ -32,6 +32,12 @@ body {
     font-size: 24px;
 }
 
+#citation {
+    text-align: justify;
+    margin-left: 20%;
+    width: 60%;
+}
+
 #datagarden-links {
     font-size: 32px;
 }
